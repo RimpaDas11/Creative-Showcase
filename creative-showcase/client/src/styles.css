@@ -1,0 +1,35 @@
+
+
+
+.masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 20px;
+}
+
+.masonry-item {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  break-inside: avoid;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* NEVER show alt text or image placeholders */
+img {
+  font-size: 0;
+  color: transparent;
+}
+
+@media (max-width: 1000px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry {
+    column-count: 1;
+  }
+}
