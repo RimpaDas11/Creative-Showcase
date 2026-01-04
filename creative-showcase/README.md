@@ -89,7 +89,7 @@ The project can be fully executed locally using the Installation & Execution ste
 
 
 **Demo Video Link:**
-`<PASTE YOUR GOOGLE DRIVE / YOUTUBE / ONEDRIVE VIDEO LINK HERE>`
+https://drive.google.com/file/d/1yJKyBpC7csoEOi4KhQmaCkxwb54jGwMy/view?usp=sharing
 
 
 
@@ -98,6 +98,7 @@ The project can be fully executed locally using the Installation & Execution ste
 * The project runs completely on local setup as per instructions above.
 * All core features are demonstrated in the recorded live video.
 * Backend APIs and frontend integration are fully functional.
+
 
 
 
