@@ -4,7 +4,7 @@
 
 A full-stack web application that allows artists to upload, manage, and share their artwork publicly.
 
----
+
 
 ## Tech Stack
 
@@ -14,13 +14,13 @@ A full-stack web application that allows artists to upload, manage, and share th
 * **Authentication:** JWT
 * **File Uploads:** Multer
 
----
+
 
 ## Installation & Execution
 
 Follow the steps below to run the project locally on your system.
 
----
+
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ Make sure you have the following installed:
 * MongoDB (local or MongoDB Atlas)
 * Git
 
----
+
 
 ### Backend Setup
 
@@ -44,7 +44,7 @@ node server.js
 * Backend runs on: `http://localhost:5000`
 * MongoDB must be running or properly connected (Atlas URI)
 
----
+
 
 ### Frontend Setup
 
@@ -56,7 +56,7 @@ npm start
 
 * Frontend runs on: `http://localhost:3000`
 
----
+
 
 ## Application Routes
 
@@ -66,24 +66,32 @@ npm start
 * `/dashboard` – User Dashboard (Image Upload & Gallery)
 * `/profile/:username` – Public User Profile
 
----
 
-## Live Demo / Hosted Link
 
-⚠️ **Hosted deployment is not available** due to environment and server limitations (file uploads and backend dependencies).
 
-📹 **Instead, a complete live demo video has been recorded**, showing:
+## Deployment Status
 
-* User registration & login
-* Image upload
-* Gallery display
-* Profile view
-* Logout flow
+Due to backend limitations (Express server with file uploads using Multer),
+the application is not deployed to a live hosting platform.
+
+A complete live demo video has been recorded demonstrating all features:
+- User registration and login
+- Image upload
+- Dashboard
+- Public gallery
+- Logout functionality
+
+The frontend includes a Vercel configuration (`vercel.json`) for SPA routing,
+but deployment was not performed.
+
+The project can be fully executed locally using the Installation & Execution steps.
+
+
 
 **Demo Video Link:**
 `<PASTE YOUR GOOGLE DRIVE / YOUTUBE / ONEDRIVE VIDEO LINK HERE>`
 
----
+
 
 ## Notes for Reviewer
 
@@ -91,5 +99,6 @@ npm start
 * All core features are demonstrated in the recorded live video.
 * Backend APIs and frontend integration are fully functional.
 
----
+
+
 
