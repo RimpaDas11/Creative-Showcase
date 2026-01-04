@@ -83,6 +83,9 @@ A complete live demo video has been recorded demonstrating all features:
 
 The frontend includes a Vercel configuration (`vercel.json`) for SPA routing,
 but deployment was not performed.
+Although the repository is connected to Vercel and shows deployment attempts,
+the application is not fully hosted online due to backend limitations
+(Express server with file uploads using Multer
 
 The project can be fully executed locally using the Installation & Execution steps.
 
@@ -98,6 +101,7 @@ https://drive.google.com/file/d/1yJKyBpC7csoEOi4KhQmaCkxwb54jGwMy/view?usp=shari
 * The project runs completely on local setup as per instructions above.
 * All core features are demonstrated in the recorded live video.
 * Backend APIs and frontend integration are fully functional.
+
 
 
 
